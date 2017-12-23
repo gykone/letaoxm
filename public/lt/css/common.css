@@ -1,0 +1,144 @@
+/* reset css */
+
+
+
+/*common css*/
+.lt_container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.lt_topbar{
+	height: 45px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #069;
+	text-align: center;
+	
+}
+.lt_topbar h3{
+	margin: 0;
+	padding: 0;
+	line-height: 45px;
+	font-weight: normal;
+	color: #fff;
+}
+.lt_topbar span{
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+}
+.lt_topbar .btn_left{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.lt_topbar .btn_left span{
+	font-size: 26px;
+	font-weight: bold;
+}
+.lt_topbar .btn_right{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/* .lt_topbar span{
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff;
+} */
+
+/*中间内容区域*/
+.lt_content{
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	padding-bottom: 55px;
+}
+.lt_wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #fff;
+}
+
+/* 商品区 */
+ .lt_product{
+	padding: 0 10px;
+	background:#fff;
+}
+.lt_product .item {
+	width: 48%;
+	float: left;
+	text-align: center;
+	box-shadow: 0 0 5px #ccc;
+	margin-top: 10px;
+	padding: 10px 5px;
+}
+.lt_product .item:nth-child(even){
+	margin-left: 4%;
+}
+.lt_product .item img {
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+.lt_product .mui-ellipsis-2{
+	height: 41px;
+}
+.lt_product .item p{
+	font-size: 12px;
+}
+.lt_product .item p span:first-child{
+	color: red;
+}
+.lt_product .item p span:last-child{
+	color: grey;
+	text-decoration: line-through;
+}
+ 
+
+/* 底部tabbar */
+.lt_tabbar{
+	width: 100%;
+	height: 55px;
+	background-color: #069;
+	position: absolute;
+	left: 0;
+	bottom:0;
+	background-color: #069;
+} 
+.lt_tabbar ul {
+	padding: 0;
+	margin: 0;
+}
+.lt_tabbar ul li{
+	list-style: none;
+	width: 25%;
+	float: left;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+.lt_tabbar ul li p{
+	color: #fff;
+	margin-bottom: 0;
+}
+.lt_tabbar ul li.now {
+	color: orange;
+}
+.lt_tabbar ul li.now p{
+	color: orange;
+}
+/*model css
